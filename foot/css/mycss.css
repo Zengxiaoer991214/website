@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+form{
+	background:rgba(134,150,48,1.00);
+	border-bottom-style: dashed;
+}
+div{width: 800px;
+	height: 1000px;
+	
+}
+#submit1{
+	border-bottom-color: cornflowerblue;
+	
+}
+input{
+	align-content: center;
+}

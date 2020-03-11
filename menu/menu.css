@@ -1,0 +1,56 @@
+/* CSS Document */
+
+.drop {
+	  cursor: pointer;
+		    display: block;
+			     background: #090;
+}
+
+.drop + input{
+	 display: none;  hide the checkboxes 
+}
+
+.drop + input + div{
+	  display:none;
+}
+
+.drop + input:checked + div{
+	  display:block;
+
+}
+#login{
+	overflow: hidden;
+	position: fixed;
+	width:41%;
+	height:470px;
+	top: 25%;
+	left: 25%;
+	display: none;
+	}		
+#slitbar{
+	overflow: hidden;
+	position: fixed ;
+	width: 300px;
+	top: 0px;
+	left: 0px;
+}
+#weblog{
+	overflow: hidden;
+	position: fixed;
+	width: 300px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
