@@ -8,8 +8,10 @@
 <meta name="baidu-site-verification" content="YI9qYISe1g" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
  
+ 
 <link href="bootstrap/css/bootstrap-grid.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" type="text/css"/>
  	
+ 
 
 </head>
 <body style="background-color:darkslategray" onLoad="welcome()">
@@ -33,17 +35,20 @@
         <a class="nav-link" href="#">综合 </a>
       </li>
      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         分类
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">A</a>
-          <a class="dropdown-item" href="#">B</a>
-          
-          <a class="dropdown-item" href="#">C</a>
-        </div>
-      </li>
+       
+        <div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
+       
        <button class="btn btn-outline-success my-2 my-sm-0" type="button" onClick="link_blog_send()">发博客</button>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -58,15 +63,15 @@
 	
 		 while($row = mysqli_fetch_array($result))
 		 {
-			 switch(rand(0, 7)){
+			 switch(rand(0, 6)){
 				 case 0:$bg="bg-info";break;
 				 case 1:$bg="bg-secondary";break;
 				 case 2:$bg="bg-success";break;
 				 case 3:$bg="bg-danger";break;
 				 case 4:$bg="bg-warning";break;
-				 case 5:$bg="bg-info";break;		 
+				 case 5:$bg="bg-dark";break;
 				 case 6:$bg="bg-light";break;		 
-				 case 7:$bg="bg-info";break;		 
+				  		 
 			 }
 	?>
 	 
@@ -109,12 +114,14 @@
 	</div>
 	
 	</div>
+ 
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	 <script src="message_box/js/jquery-1.11.0.min.js" type="text/javascript"></script>
 	  <script src="message_box/js/bootstrap.min.js"></script>
 	  <script src="message_box/js/hullabaloo.js"></script>
+ 
 	
 	<script type="text/javascript">
 		function welcome(){

@@ -89,10 +89,10 @@
 				
 	<ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#login" role="tab" aria-controls="home" aria-selected="true" name="name">登录</a>
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#login_div" role="tab" aria-controls="home" aria-selected="true" name="name">登录</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#design" role="tab" aria-controls="profile" aria-selected="false" name="password">注册</a>
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#design" role="tab" aria-controls="profile" aria-selected="true" name="password">注册</a>
   </li>
 </ul>
 	
@@ -200,15 +200,15 @@
 </div>
 	  <!--------------------登录错误处理------------------->
 	
-	  
+	   <script src="../message_box/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	  <script src="../message_box/js/bootstrap.min.js"></script>
+	  <script src="../message_box/js/hullabaloo.js"></script>
 <!-------------------------------------js  bootstrap---------------------------------->  
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <!------------------------------------------------------------------------------------>
-	  <script src="../message_box/js/jquery-1.11.0.min.js" type="text/javascript"></script>
-	  <script src="../message_box/js/bootstrap.min.js"></script>
-	  <script src="../message_box/js/hullabaloo.js"></script>
+	 
 	  
 	  
 <!-------------------------------------js DIY------------------------------------------>
