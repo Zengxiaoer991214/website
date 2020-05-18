@@ -28,8 +28,8 @@ if (is_file(__DIR__ . '/../vendor/autoload.php')) {
 use OSS\OssClient;
 use OSS\Core\OssException;
 // 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。
-$accessKeyId = "LTAI4FwgtwH34qbqySH5JowG";
-$accessKeySecret = "8XprkYaNby6owAajB8nNHpWJDWXHm7";
+$accessKeyId = "";
+$accessKeySecret = "";
 // Endpoint以杭州为例，其它Region请按实际情况填写。这个先手动上传个图片，复制URL里面就有这个东西
 //$endpoint = "https://oss-cn-shanghai.aliyuncs.com/thelasted";
 //$endpoint = "https://oss-cn-shenzhen-internal.aliyuncs.com/thelasted";
